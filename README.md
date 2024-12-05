@@ -26,3 +26,14 @@ project-directory/
 ├── file_manager.csv # CSV file storing all contacts(auto-generated on first run)
 
 ├──  README.md  # Project documentation (this file)
+
+
+## **CSV File Details**
+
+The contacts.csv file is created automatically when the program is run for the first time.
+
+It contains the following fields:
+-name
+-email
+-phone
+-address
