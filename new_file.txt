@@ -1,0 +1,27 @@
+ +--------------------+
+ |      main.py       |
+ |--------------------|
+ | - Displays menu    |
+ | - Takes user input |
+ | - Calls functions  |
+ +---------+----------+
+           |
+           V
+ +------------------------+
+ |  contact_operations.py |
+ |------------------------|
+ | - Add Contact          |
+ | - View Contacts        |
+ | - Search Contact       |
+ | - Remove Contact       |
+ +---------+--------------+
+           |
+           V
+ +-------------------+
+ |  file_manager.py  |
+ |-------------------|
+ | - Load contacts   |
+ | - Save contacts   |
+ | - Manage CSV file |
+ +-------------------+
+
