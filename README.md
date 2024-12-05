@@ -50,5 +50,5 @@ It contains the following fields:
 ---
 
 ### How to Use
-1. Clone this repository and run the `main.py` file from your terminal.
+- Clone this repository and run the `main.py` file from your terminal.
 
