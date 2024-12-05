@@ -18,8 +18,11 @@ A Command Line Interface (CLI) project built in Python for managing a contact bo
 ## **File Structure**
 
 project-directory/
-│
+
 ├── main.py  # Main Python script containing the application logic
+
 ├── contact_operations.py  # Main Python script containing the application logic
+
 ├── file_manager.csv # CSV file storing all contacts(auto-generated on first run)
-└── README.md  # Project documentation (this file)
+
+├──  README.md  # Project documentation (this file)
