@@ -33,7 +33,7 @@ project-directory/
 The contacts.csv file is created automatically when the program is run for the first time.
 
 It contains the following fields:
--name
--email
--phone
--address
+**name**
+**email**
+**phone**
+**address**
