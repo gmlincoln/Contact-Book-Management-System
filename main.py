@@ -1,10 +1,10 @@
 #Contact Book Management System
 
-#from contact_operations import add_contact, view_contacts, remove_contact, search_contact
-#from file_manager import load_contacts, save_contacts
+from contact_operations import add_contact, view_contacts, remove_contact, search_contact
+from file_manager import load_contacts, save_contacts
 
 # Load contacts at the start
-# contacts = load_contacts()
+contacts = load_contacts()
 
 
 while True:
@@ -18,20 +18,16 @@ while True:
     choice = input("Enter your choice: ")
         
     if choice == '1':
-        # add_contact(contacts)
-        # save_contacts(contacts)
-        print(f"Added")     
+        add_contact(contacts)
+        
     elif choice == '2':
-        # view_contacts(contacts)            
-        print("View")
+        view_contacts(contacts)    
+                
     elif choice == '3':
-        # remove_contact(contacts)
-        # save_contacts(contacts)
-        print("Remove")
+        remove_contact(contacts)
 
     elif choice == '4':
-        # search_contact(contacts)
-        print("Search")
+        search_contact(contacts)
 
     elif choice == '5':
         print("Thanks for using Contact Book Management System. Goodbye!")
