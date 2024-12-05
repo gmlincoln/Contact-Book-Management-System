@@ -37,3 +37,18 @@ It contains the following fields:
 - **email** 
 - **phone** 
 - **address** 
+
+## **Menu Options**
+- **Add Contact:** Input details to create a new contact.
+- **View Contacts:** Display all contacts in a formatted list.
+- **Search Contact:** Search for a contact using their phone number.
+- **Remove Contact:** Delete a contact by phone number.
+- **Exit:** Close the application.
+
+
+
+---
+
+### How to Use
+1. Clone this repository and run the `main.py` file from your terminal.
+
